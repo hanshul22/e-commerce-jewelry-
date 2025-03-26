@@ -19,7 +19,6 @@ const Account = lazy(() => import('./pages/Account'));
 const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Auth = lazy(() => import('./pages/Auth'));
-const Collections = lazy(() => import('./pages/Collections'));
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -32,7 +31,7 @@ const queryClient = new QueryClient({
 
 function Layout() {
   return (
-    <div className="min-h-screen bg-cream flex flex-col">
+    <div className="flex flex-col min-h-screen bg-cream">
       <Navbar />
       <main className="flex-grow pt-20">
         <Suspense fallback={<LoadingSpinner />}>
@@ -62,7 +61,6 @@ function App() {
                   <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/auth" element={<Auth />} />
-                  <Route path="/collections" element={<Collections />} />
                 </Route>
               </Routes>
               <Toaster position="top-center" />

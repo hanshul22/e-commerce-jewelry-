@@ -3,10 +3,10 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaPintere
 
 function Footer() {
   return (
-    <footer className="bg-secondary text-white mt-auto">
-      <div className="container mx-auto px-4">
+    <footer className="mt-auto text-white bg-secondary">
+      <div className="container px-4 mx-auto">
         {/* Main Footer Content */}
-        <div className="py-12 grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-8">
+        <div className="grid grid-cols-2 py-12 md:grid-cols-4 gap-x-8 gap-y-8">
           {/* Company Info */}
           <div className="space-y-4">
             <h4 className="font-serif text-2xl">LUXE JEWELS</h4>
@@ -15,15 +15,15 @@ function Footer() {
             </p>
             <div className="flex gap-4 pt-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" 
-                className="text-gray-300 hover:text-primary transition-colors">
+                className="text-gray-300 transition-colors hover:text-primary">
                 <FaFacebook size={20} />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-                className="text-gray-300 hover:text-primary transition-colors">
+                className="text-gray-300 transition-colors hover:text-primary">
                 <FaInstagram size={20} />
               </a>
               <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer"
-                className="text-gray-300 hover:text-primary transition-colors">
+                className="text-gray-300 transition-colors hover:text-primary">
                 <FaPinterest size={20} />
               </a>
             </div>
@@ -34,16 +34,15 @@ function Footer() {
             <h4 className="font-serif text-lg">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/shop" className="text-gray-300 hover:text-primary transition-colors">Shop</Link>
+                <Link to="/shop" className="text-gray-300 transition-colors hover:text-primary">Shop</Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-primary transition-colors">About</Link>
+                <Link to="/about" className="text-gray-300 transition-colors hover:text-primary">About</Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-primary transition-colors">Contact</Link>
+                <Link to="/contact" className="text-gray-300 transition-colors hover:text-primary">Contact</Link>
               </li>
               <li>
-                <Link to="/collections" className="text-gray-300 hover:text-primary transition-colors">Collections</Link>
               </li>
             </ul>
           </div>
@@ -53,16 +52,16 @@ function Footer() {
             <h4 className="font-serif text-lg">Customer Service</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/shipping" className="text-gray-300 hover:text-primary transition-colors">Shipping</Link>
+                <Link to="/shipping" className="text-gray-300 transition-colors hover:text-primary">Shipping</Link>
               </li>
               <li>
-                <Link to="/returns" className="text-gray-300 hover:text-primary transition-colors">Returns</Link>
+                <Link to="/returns" className="text-gray-300 transition-colors hover:text-primary">Returns</Link>
               </li>
               <li>
-                <Link to="/size-guide" className="text-gray-300 hover:text-primary transition-colors">Size Guide</Link>
+                <Link to="/size-guide" className="text-gray-300 transition-colors hover:text-primary">Size Guide</Link>
               </li>
               <li>
-                <Link to="/care" className="text-gray-300 hover:text-primary transition-colors">Care</Link>
+                <Link to="/care" className="text-gray-300 transition-colors hover:text-primary">Care</Link>
               </li>
             </ul>
           </div>
@@ -88,7 +87,7 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="py-6 border-t border-gray-700 text-center text-sm text-gray-300">
+        <div className="py-6 text-sm text-center text-gray-300 border-t border-gray-700">
           <p>&copy; {new Date().getFullYear()} LUXE JEWELS. All rights reserved.</p>
         </div>
       </div>
