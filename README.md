@@ -157,15 +157,6 @@ src/
 - Optimized touch interactions
 - Implemented responsive images
 
-## 🔄 Future Improvements
-
-- [ ] Add product reviews and ratings
-- [ ] Implement live chat support
-- [ ] Add AR try-on feature
-- [ ] Integrate multiple payment gateways
-- [ ] Add multi-language support
-- [ ] Implement PWA capabilities
-
 ## Optional bonus points 
 - QR/Barcode Scanner
 
