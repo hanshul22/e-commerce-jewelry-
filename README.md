@@ -2,6 +2,10 @@
 
 A modern, feature-rich e-commerce platform built with React, showcasing luxury jewelry with an emphasis on elegant design and seamless user experience.
 
+# Links
+
+- Frontend -  [Link](https://e-commerce-jewelry.pages.dev/)
+
 ## 🌟 Features
 
 - **Modern UI/UX**
@@ -162,21 +166,8 @@ src/
 - [ ] Add multi-language support
 - [ ] Implement PWA capabilities
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 👥 Authors
-
-- **Your Name** - *Initial work* - [YourGithub](https://github.com/yourusername)
+## Optional bonus points 
+- QR/Barcode Scanner
 
 ## 🙏 Acknowledgments
 
