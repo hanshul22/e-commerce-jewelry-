@@ -2,7 +2,7 @@
 
 A modern, feature-rich e-commerce platform built with React, showcasing luxury jewelry with an emphasis on elegant design and seamless user experience.
 
-# Links
+## Deployed Links
 
 - Frontend -  [Link](https://e-commerce-jewelry.pages.dev/)
 
