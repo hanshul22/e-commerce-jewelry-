@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LUXE JEWELS - Luxury jewelry and fine accessories" />
+    <meta name="theme-color" content="#B4925E" />
+    <title>LUXE JEWELS - Timeless Elegance</title>
+    
+    <!-- Preload critical assets -->
+    <link 
+      rel="preload" 
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link 
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+
+    <!-- Critical CSS -->
+    <style>
+      /* Inline critical CSS here */
+      :root {
+        --primary-color: #B4925E;
+        --secondary-color: #1A1A1A;
+        --cream-color: #F5F1EA;
+      }
+      body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--cream-color);
+      }
+      .loading {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cream-color);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Initial loading state -->
+      <div class="loading">
+        <div style="width: 112px; height: 112px; position: relative;">
+          <div style="width: 112px; height: 48px; position: absolute; top: 64px; left: 0; border: 16px solid var(--primary-color);"></div>
+          <div style="width: 48px; height: 48px; position: absolute; top: 0; left: 0; border: 16px solid var(--primary-color);"></div>
+          <div style="width: 48px; height: 48px; position: absolute; top: 0; left: 64px; border: 16px solid var(--primary-color);"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
